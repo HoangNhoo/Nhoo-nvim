@@ -4,7 +4,7 @@ return {
 
 	{
 		"nvim-neorg/neorg",
-		enabled = false,
+		enabled = true,
 		config = function()
 			require("neorg").setup({})
 		end,
@@ -12,7 +12,7 @@ return {
 
 	{
 		"jakewvincent/mkdnflow.nvim",
-		enabled = false,
+		enabled = true,
 		config = function()
 			local mkdnflow = require("mkdnflow")
 			mkdnflow.setup({})
@@ -21,7 +21,7 @@ return {
 
 	{
 		"epwalsh/obsidian.nvim",
-		enabled = false,
+		enabled = true,
 		ft = "markdown",
 		event = {
 			-- If you want to use the home shortcut '~' here you need to call 'vim.fn.expand'.
@@ -49,8 +49,8 @@ return {
 			require("obsidian").setup({
 				workspaces = {
 					{
-						name = "notes",
-						path = "~/notes",
+						name = "Work",
+						path = "~/Documents/Obsidian Vault/",
 					},
 				},
 				mappings = {

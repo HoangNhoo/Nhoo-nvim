@@ -87,14 +87,6 @@ return { -- LSP Configuration & Plugins
 			require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
 
 			require("mason-lspconfig").setup({
-				ensure_installed = {
-					"black",
-					"stylua",
-					"shfmt",
-					"isort",
-					"tree-sitter-cli",
-					"jupytext",
-				},
 				handlers = {
 					function(server_name)
 						local server = servers[server_name] or {}
