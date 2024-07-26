@@ -4,7 +4,7 @@
 ![image](https://github.com/user-attachments/assets/e5efd3af-1366-4507-b39a-cc2187424005)
 
 ## which-key
-![image](https://github.com/user-attachments/assets/f422ddec-ba6e-4eff-badb-e1b203e1dcd7)
+![image](https://github.com/user-attachments/assets/dc8c54f6-064b-49b8-ad56-f98e9958b97a)
 
 ## Quarto
 This is for my ipynb, python project
