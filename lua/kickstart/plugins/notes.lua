@@ -52,6 +52,10 @@ return {
 						name = "Work",
 						path = "~/Documents/Obsidian Vault/",
 					},
+					{
+						name = "Task",
+						path = "~/LearnAI/AIC/",
+					},
 				},
 				mappings = {
 					-- Overrides the 'gf' mapping to work on markdown/wiki links within your vault.

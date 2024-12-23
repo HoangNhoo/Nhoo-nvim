@@ -39,6 +39,7 @@ require("lazy").setup({
 	require("kickstart/plugins/notes"),
 
 	require("kickstart/plugins/workspaces"),
+
 	-- Add/Configure additional plugins for Kickstart
 	-- TODO: Learn debug
 	require("kickstart.plugins.debug"),
@@ -46,6 +47,7 @@ require("lazy").setup({
 	-- require 'kickstart.plugins.lint',
 	require("kickstart.plugins.autopairs"),
 	require("kickstart.plugins.neo-tree"),
+
 	-- TODO: Learn gitsigns
 	-- require 'kickstart.plugins.gitsigns', -- adds gitsigns recommend keymaps
 

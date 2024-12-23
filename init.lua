@@ -24,6 +24,7 @@ require("config.global")
 require("config.lazy")
 require("config.keymap")
 require("config.autocommands")
+-- require("pack.lua._copilot")
 vim.cmd("highlight MiniStarterHeader guifg=#e03d10")
 vim.cmd("highlight MiniStarterFooter guifg=#7e0ce8")
 
