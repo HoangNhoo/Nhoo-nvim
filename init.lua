@@ -20,10 +20,6 @@ require("lazy-bootstrap")
 require("lazy-plugins")
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
-require("config.global")
-require("config.lazy")
-require("config.keymap")
-require("config.autocommands")
 -- require("pack.lua._copilot")
 vim.cmd("highlight MiniStarterHeader guifg=#e03d10")
 vim.cmd("highlight MiniStarterFooter guifg=#7e0ce8")

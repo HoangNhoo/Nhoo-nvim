@@ -32,13 +32,13 @@ require("lazy").setup({
 
 	require("kickstart/plugins/treesitter"),
 
-	require("kickstart/plugins/nvim-conda"),
-
-	require("kickstart/plugins/quarto"),
-
 	require("kickstart/plugins/notes"),
 
 	require("kickstart/plugins/workspaces"),
+
+	require("kickstart/plugins/transparent"),
+
+	require("kickstart/plugins/move"),
 
 	-- Add/Configure additional plugins for Kickstart
 	-- TODO: Learn debug

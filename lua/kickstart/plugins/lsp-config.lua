@@ -49,8 +49,6 @@ return { -- LSP Configuration & Plugins
 				-- Some languages (like typescript) have entire language plugins that can be useful:
 				--    https://github.com/pmizio/typescript-tools.nvim
 				--
-				-- But for many setups, the LSP (`tsserver`) will work just fine
-				tsserver = {},
 				--
 
 				lua_ls = {
@@ -237,11 +235,6 @@ return { -- LSP Configuration & Plugins
 			-- $home/.config/marksman/config.toml :
 			-- [core]
 			-- markdown.file_extensions = ["md", "markdown", "qmd"]
-			lspconfig.marksman.setup({
-				capabilities = capabilities,
-				filetypes = { "markdown", "quarto" },
-				root_dir = util.root_pattern(".git", ".marksman.toml", "_quarto.yml"),
-			})
 
 			lspconfig.r_language_server.setup({
 				capabilities = capabilities,
@@ -291,12 +284,6 @@ return { -- LSP Configuration & Plugins
 			lspconfig.dotls.setup({
 				capabilities = capabilities,
 				flags = lsp_flags,
-			})
-
-			lspconfig.tsserver.setup({
-				capabilities = capabilities,
-				flags = lsp_flags,
-				filetypes = { "js", "javascript", "typescript", "ojs" },
 			})
 
 			local function get_quarto_resource_path()
