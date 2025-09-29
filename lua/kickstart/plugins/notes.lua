@@ -54,7 +54,7 @@ return {
 					},
 					{
 						name = "Task",
-						path = "~/LearnAI/AIC/",
+						path = "~/Reproduce-CVE-2023-52927/",
 					},
 				},
 				mappings = {
